@@ -1,0 +1,142 @@
+@import url(./theme1.css);
+@import url(./theme2.css);
+@import url(./theme3.css);
+
+/* Start Font Family */
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* End Font Family */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Start Login Section */
+form, .kidcalc, .info {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 60px auto;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+form label {
+    color: #777;
+    margin-top: 10px;
+}
+
+form input:not(.btn) {
+    margin-top: 3px;
+    background-color: #ddd;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+}
+
+form .btn {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form .btn:hover {
+    background-color: #ddd;
+}
+
+form label img {
+    width: 50px;
+    height: 55px;
+}
+
+form .check input {
+    display: block;
+}
+form .check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* End Login Section */
+
+/* Start Kidcalc */
+.kidcalc input {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.kidcalc .values {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.kidcalc .values div, .kidcalc .ac, .kidcalc .submit {
+    background-color: #ddd;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.kidcalc .values div:hover, .kidcalc .ac:hover, .kidcalc .submit:hover {
+    background-color: #ccc;
+}
+
+.kidcalc .ac {
+    margin-bottom: 15px;
+}
+.kidcalc .submit {
+    margin-top: 15px;
+}
+.kidcalc label {
+    color: #777;
+    margin-top: 10px;
+}
+/* End Kidcalc */
+
+/* Start Info Box */
+.info {
+    text-align: center;
+}
+
+.info h1 {
+    margin-bottom: 20px;
+}
+/* End Info Box */

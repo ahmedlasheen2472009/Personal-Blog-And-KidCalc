@@ -1,0 +1,32 @@
+.kidcalc-theme-3 .values div:hover, .kidcalc-theme-3 .ac:hover {
+    background-color: #366CE0;
+}
+
+.kidcalc-theme-3 label {
+    color: #888;
+    margin-top: 10px;
+}
+
+.kidcalc-theme-3 .values div, .kidcalc-theme-3 .ac {
+    background-color: #36E076;
+}
+
+.form-theme-3 .btn:hover {
+    background-color: #36E076;
+}
+
+.form-theme-3 .btn {
+    background-color: #366CE0;
+}
+
+.form-theme-3 label {
+    color: #888;
+}
+
+.form-theme-3 input:not(.btn) {
+    background-color: #36E076;
+}
+
+.form-theme-3, .kidcalc-theme-3, .info-theme-3 {
+    background-color: #999;
+}

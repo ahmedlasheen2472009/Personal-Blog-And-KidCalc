@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700;800&display=swap" rel="stylesheet">
+    <title>KidCalc</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+    <!-- Start Login Form -->
+    <form class="form" action="">
+        <label for="name">Name:</label>
+        <input type="text" name="theName" id="name">
+        <label for="name">Age:</label>
+        <input type="number" name="theAge" id="age">
+        <label for="Theme">Choose a Theme : </label>
+        <select name="Theme" id="bgImage" >
+        <option value="your img url" id="dino">dinasours</option>
+        <option value="your img url" id="space">space</option>
+        </select>
+        <input type="button" class="btn" value="Submit">
+    </form>
+    <!-- End Login Form -->
+    <!-- Start KidCalc Form -->
+    <div class="kidcalc">
+        <label>Expression Box:</label>
+        <input type="text" class="expression">
+        <div class="ac">AC</div>
+        <div class="values">
+            <div>0</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>/</div>
+            <div>-</div>
+            <div>*</div>
+            <div>+</div>
+            <div>.</div>
+            <div>=</div>
+        </div>
+        <div class="submit">Submit</div>
+        <label>Answer Box:</label>
+        <input type="text" class="Answer" disabled>
+    </div>
+    <!-- End KidCalc Form -->
+    <!-- Start Info Box -->
+    <div class="info">
+        <h1>Hello Ahmad !</h1>
+        <p>Number Of Correct Answer: 99</p>
+    </div>
+    <!-- End Info Box -->
+</body>
+</html>
